@@ -1,3 +1,14 @@
+@keyframes fadeInBottom {
+  0% {
+    transform: translateY(60px);
+    opacity: 0; }
+  50% {
+    transform: translateY(30px);
+    opacity: 0.5; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
 *,
 *::after,
 *::before {
@@ -75,7 +86,8 @@ body {
     line-height: 8.5rem;
     padding-left: 52%;
     font-family: 'Lato', sans-serif;
-    transform: matrix(1, 0, 0, 1, 0, 0); }
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    animation: fadeInBottom 400ms ease-out 200ms; }
     .banner-slider__text h2 {
       line-height: 3.2rem;
       font-size: 3.2rem; }

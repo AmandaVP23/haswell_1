@@ -24,6 +24,7 @@
         padding-left: 52%;
         font-family: 'Lato', sans-serif;
         transform: matrix(1, 0, 0, 1, 0, 0);
+        animation: fadeInBottom 400ms ease-out 200ms;
 
         h2 {
             line-height: 3.2rem;
@@ -31,8 +32,7 @@
         }
 
         &__divider {
-            height: 4px;
-            background-color: $color-dark-grey;
+            @include line-divider;
             width: 100px;
             margin: 4rem 0;
         }
