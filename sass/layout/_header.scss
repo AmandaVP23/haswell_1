@@ -1,0 +1,25 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: $color-white;
+    transition: background-color .3s ease, padding-top .4s ease;
+
+    &--big {
+        background-color: transparent;
+        padding-top: 3.5rem;
+    }
+
+    &__container {
+        height: 100%;
+        display: inline-flex;
+
+        &__logo {
+            height: 42px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0 !important;
+}
+
+html {
+    font-family: 'Open Sans', serif;
+    font-size: 62.5%; // 1rem = 10px num ecrã normal
+}
+
+body {
+    background-color: $color-white;
+}

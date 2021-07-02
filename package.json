@@ -1,0 +1,19 @@
+{
+  "name": "haswell_1",
+  "version": "1.0.0",
+  "description": "inspired in haswell from envato templates",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server --port=8081",
+    "start": "npm-run-all --parallel watch:sass devserver",
+    "compile:sass": "node-sass sass/main.scss css/style-compiled.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^6.0.1",
+    "npm-run-all": "^4.1.5"
+  }
+}

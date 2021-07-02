@@ -1,0 +1,40 @@
+.banner-slider {
+    height: 100vh;
+    position: relative;
+
+    &__img {
+        height: 100%;
+
+        &--1 {
+            background-image: url("../img/slide_1_1.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    &__text {
+        position: absolute;
+        top: 39vh;
+        left: 0;
+        color: $color-dark-grey;
+        font-size: 5rem;
+        line-height: 8.5rem;
+        padding-left: 52%;
+        font-family: 'Lato', sans-serif;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+
+        h2 {
+            line-height: 3.2rem;
+            font-size: 3.2rem;
+        }
+
+        &__divider {
+            height: 4px;
+            background-color: $color-dark-grey;
+            width: 100px;
+            margin: 4rem 0;
+        }
+    }
+}
