@@ -207,6 +207,18 @@ body {
         .services__grid__top__title > .paragraph {
           line-height: 1.4rem; }
 
+.portfolio {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, minmax(29rem, 32rem));
+  grid-gap: 1.5rem; }
+  .portfolio__item {
+    overflow: hidden; }
+    .portfolio__item img {
+      width: 100%;
+      height: auto; }
+
 .banner-slider {
   height: 100vh;
   position: relative; }

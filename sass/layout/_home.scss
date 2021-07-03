@@ -153,3 +153,20 @@
         }
     }
 }
+
+.portfolio {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, minmax(29rem, 32rem));
+    grid-gap: 1.5rem;
+
+    &__item {
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
