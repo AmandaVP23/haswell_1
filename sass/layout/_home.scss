@@ -288,3 +288,50 @@
         }
     }
 }
+
+.work-section {
+    width: 100%;
+    background: #2c2c2c url(../img/work-proc-bg.jpg) fixed;
+    padding: 11rem 0;
+
+    &__inner {
+        color: $color-white-2;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 5rem;
+        max-width: 110.5rem;
+
+        > .title-with-right-border {
+            border-left: 2px solid $color-white-2;
+        }
+
+        &__item {
+            display: inline-flex;
+            height: 4.6rem;
+
+            p {
+                color: $color-light-grey-3;
+                font-size: 1.4rem;
+                line-height: 2.4rem;
+            }
+
+            &__icon {
+                margin-right: 2.5rem;
+                font-size: 4.5rem;
+            }
+
+            &__title {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                > p {
+                    line-height: 1.8rem;
+                }
+            }
+        }
+    }
+}

@@ -72,6 +72,9 @@ body {
   line-height: 2.2rem;
   color: #7e8082; }
 
+.txt-small {
+  font-size: 1.4rem; }
+
 .txt-medium {
   font-size: 1.6rem; }
 
@@ -310,6 +313,38 @@ body {
           font-family: "Open Sans", sans-serif; }
         .our-clients__inner__bottom__info footer::before {
           content: "\2014 \00A0"; }
+
+.work-section {
+  width: 100%;
+  background: #2c2c2c url(../img/work-proc-bg.jpg) fixed;
+  padding: 11rem 0; }
+  .work-section__inner {
+    color: #f1f1f1;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 5rem;
+    max-width: 110.5rem; }
+    .work-section__inner > .title-with-right-border {
+      border-left: 2px solid #f1f1f1; }
+    .work-section__inner__item {
+      display: inline-flex;
+      height: 4.6rem; }
+      .work-section__inner__item p {
+        color: #d3d4d5;
+        font-size: 1.4rem;
+        line-height: 2.4rem; }
+      .work-section__inner__item__icon {
+        margin-right: 2.5rem;
+        font-size: 4.5rem; }
+      .work-section__inner__item__title {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .work-section__inner__item__title > p {
+          line-height: 1.8rem; }
 
 .banner-slider {
   height: 100vh;
