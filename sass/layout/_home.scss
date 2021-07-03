@@ -33,8 +33,8 @@
 
                 &__item {
                     display: grid;
-                    grid-template-rows: 35px min-content;
-                    grid-template-columns: 35px minmax(12rem, 30rem);
+                    grid-template-rows: 3.5rem min-content;
+                    grid-template-columns: 3.5rem minmax(12rem, 30rem);
 
                     p {
                         padding-left: 1.5rem;
@@ -50,7 +50,7 @@
                     }
 
                     &__icon {
-                        font-size: 35px;
+                        font-size: 3.5rem;
                         grid-row: 1 / 3;
                     }
                 }
@@ -101,6 +101,54 @@
                 margin-top: 1rem;
                 margin-bottom: 2.5rem;
                 width: 10.2rem;
+            }
+        }
+    }
+}
+
+.services {
+    width: 100%;
+    margin: 13rem 0;
+
+    &__grid {
+        margin: 0 auto;
+        max-width: 79%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+
+        &__title {
+            height: 8.5rem;
+            border-left: 2px solid $color-dark-grey;
+            display: inline-flex;
+            align-items: center;
+            padding-left: 2.5rem;
+        }
+
+        .paragraph {
+            padding-bottom: 3.2rem;
+        }
+
+        &__top {
+            display: inline-flex;
+            height: 4.5rem;
+            margin-bottom: 2.5rem;
+
+            &__icon {
+                font-size: 4.5rem;
+                margin-right: 2rem;
+            }
+
+            &__title {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                > .paragraph {
+                    line-height: 1.4rem;
+                }
             }
         }
     }

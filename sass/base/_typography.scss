@@ -31,10 +31,29 @@
     font-size: 6rem;
 }
 
+.heading-secondary {
+    line-height: 5rem;
+    font-size: 5rem;
+}
+
+.heading-tertiary {
+    line-height: 3rem;
+    font-size: 3rem;
+}
+
 .paragraph {
+    font-family: "Open Sans", sans-serif;
     font-size: 1.4rem;
     line-height: 2.2rem;
     color: $color-grey;
+}
+
+.txt-medium {
+    font-size: 1.4rem;
+}
+
+.txt-medium-big {
+    font-size: 1.8rem;
 }
 
 .txt-grey {
