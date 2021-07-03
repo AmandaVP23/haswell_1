@@ -14,10 +14,29 @@
     font-weight: 300;
 }
 
+.font-weight-600 {
+    font-weight: 600;
+}
+
 .font-weight-700 {
     font-weight: 700;
 }
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.heading-primary {
+    line-height: 6rem;
+    font-size: 6rem;
+}
+
+.paragraph {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: $color-grey;
+}
+
+.txt-grey {
+    color: $color-grey;
 }

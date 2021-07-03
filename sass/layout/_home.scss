@@ -17,17 +17,6 @@
             color: $color-dark-grey;
             margin-left: 3rem;
 
-            h1 {
-                text-transform: uppercase;
-                font-weight: 300;
-                line-height: 6rem;
-                font-size: 6rem;
-            }
-
-            h1:nth-child(2) {
-                font-weight: 600;
-            }
-
             &__divider {
                 @include line-divider;
                 width: 100px;
@@ -48,9 +37,6 @@
                     grid-template-columns: 35px minmax(12rem, 30rem);
 
                     p {
-                        font-size: 1.4rem;
-                        line-height: 2.2rem;
-                        color: $color-grey;
                         padding-left: 1.5rem;
                     }
 
@@ -68,6 +54,53 @@
                         grid-row: 1 / 3;
                     }
                 }
+            }
+        }
+    }
+}
+
+.section-1 {
+    width: 100%;
+    display: inline-flex;
+
+    &--top-border {
+        border-top: 1px solid $color-light-grey;
+    }
+
+    &--bottom-border {
+        border-bottom: 1px solid $color-light-grey;
+    }
+
+    &__img {
+        width: 50%;
+        height: 58vh;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &--1 {
+            background-image: url("../img/fes2.jpg");
+        }
+
+        &--2 {
+            background-image: url("../img/fes3.jpg");
+        }
+    }
+
+    &__info {
+        width: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        &__inner {
+            max-width: 40rem;
+
+            &__divider {
+                @include line-divider;
+                margin-top: 1rem;
+                margin-bottom: 2.5rem;
+                width: 10.2rem;
             }
         }
     }
