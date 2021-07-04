@@ -95,15 +95,14 @@ body {
   position: fixed;
   width: 100%;
   z-index: 100;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 2rem;
   background-color: #FFFFFF;
-  transition: background-color .3s ease, padding-top .4s ease; }
+  transition: background-color .3s ease, padding-top .4s ease, box-shadown .3s ease;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15); }
   .header--big {
     background-color: transparent;
-    padding-top: 3.5rem; }
+    padding-top: 3.5rem;
+    box-shadow: none; }
   .header__container {
     height: 100%;
     display: inline-flex; }
@@ -345,6 +344,12 @@ body {
         justify-content: space-between; }
         .work-section__inner__item__title > p {
           line-height: 1.8rem; }
+
+.team-section {
+  margin: 13rem 0; }
+  .team-section__inner {
+    margin: 0 auto;
+    max-width: 110.5rem; }
 
 .banner-slider {
   height: 100vh;

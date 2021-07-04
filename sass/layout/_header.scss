@@ -2,16 +2,15 @@
     position: fixed;
     width: 100%;
     z-index: 100;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 2rem;
     background-color: $color-white;
-    transition: background-color .3s ease, padding-top .4s ease;
+    transition: background-color .3s ease, padding-top .4s ease, box-shadown .3s ease;
+    box-shadow: 0 1px 15px rgba($color-black, .15);
 
     &--big {
         background-color: transparent;
         padding-top: 3.5rem;
+        box-shadow: none;
     }
 
     &__container {
