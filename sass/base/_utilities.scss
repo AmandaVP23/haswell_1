@@ -5,3 +5,7 @@
     align-items: center;
     padding-left: 2.5rem;
 }
+
+.full-with-big-btn {
+    @include full-with-big-btn;
+}
